@@ -9,4 +9,5 @@ Um teste de unidade testa uma única unidade do nosso sistema. Geralmente, em si
 - [TDD-Katas](https://github.com/TDD-Katas)
 - [mwhelan/Katas](https://github.com/mwhelan/Katas)
 - [TDD (Test Driven Development) By Example](https://www.basicsbehind.com/2014/09/17/tdd-by-example-2/)
+- [Test Driven Development (TDD): Example Walkthrough](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/)
 - [Test Driven Development (TDD): Best Practices Using Java Examples](https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
