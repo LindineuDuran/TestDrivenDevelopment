@@ -11,10 +11,10 @@
 	</parent>
 	
 	<groupId>br.com.llduran</groupId>
-	<artifactId>roman-to-decimal</artifactId>
+	<artifactId>loja-virtual</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>roman-to-decimal</name>
-	<description>TDD - O Problema dos Números Romanos</description>
+	<name>loja-virtual</name>
+	<description>TDD - Implementar uma funcionalidade que devolva o valor do item de maior valor dentro desse carrinho de compras</description>
 	
 	<properties>
 		<java.version>11</java.version>
