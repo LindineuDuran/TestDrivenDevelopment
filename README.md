@@ -8,3 +8,4 @@ Um teste de unidade testa uma única unidade do nosso sistema. Geralmente, em si
 
 - [TDD-Katas](https://github.com/TDD-Katas)
 - [mwhelan/Katas](https://github.com/mwhelan/Katas)
+- [TDD (Test Driven Development) By Example](https://www.basicsbehind.com/2014/09/17/tdd-by-example-2/)
