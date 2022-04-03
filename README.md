@@ -5,3 +5,6 @@ Uma maneira para conseguir testar o sistema todo de maneira constante e contínu
 ## Testes de Unidade
 Desenvolvedores, quando pensam em teste de software, geralmente imaginam um teste que cobre o sistema como um todo. Um teste de unidade não se preocupa com todo o sistema; ele está interessado apenas em saber se uma pequena parte do sistema funciona.
 Um teste de unidade testa uma única unidade do nosso sistema. Geralmente, em sistemas orientados a objetos, essa unidade é a classe. A idéia é termos baterias de testes de unidade separadas para cada uma dessas classes; cada bateria preocupada apenas com a sua classe.
+
+- [TDD-Katas](https://github.com/TDD-Katas)
+- [mwhelan/Katas](https://github.com/mwhelan/Katas)
