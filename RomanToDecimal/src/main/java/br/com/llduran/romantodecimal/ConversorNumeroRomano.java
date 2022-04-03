@@ -7,6 +7,30 @@ import java.util.stream.Collectors;
 
 public class ConversorNumeroRomano
 {
+
+	public boolean isRomanNumber(String numeroRomano)
+	{
+		// Garante que romanValue não esteja vazia
+		if (numeroRomano.length() != 0)
+		{
+			int[] i = new int[1];
+			boolean isCaracterRomanNumber = false;
+			for(i[0] = numeroRomano.length()-1; i[0]  >= 0; i[0]--)
+			{
+				List<Integer> numeroDecimal = RomanNum.stream().filter(r -> r.name().equals(numeroRomano.charAt(i[0])+"")).map(r -> r.getDecimal()).collect(Collectors.toList());
+				if(numeroDecimal.size() > 0) { isCaracterRomanNumber = true;} else { return false;}
+			}
+
+			// Se todos os caracteres de romanValue são iguais a algum dos enumerables,
+			// então é um número romano
+			return isCaracterRomanNumber;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
 	public int converte(String numeroRomano)
 	{
 		int acumulador = 0;

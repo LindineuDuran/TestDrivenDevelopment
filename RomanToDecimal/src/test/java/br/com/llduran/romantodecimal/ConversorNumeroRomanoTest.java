@@ -6,6 +6,30 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ConversorNumeroRomanoTest
 {
 	@Test
+	public void deveRetornarTrueSeForNumeroRomanoValido()
+	{
+		String valorRomano = "MMVI";
+
+		// Instancia uma nova conversão de um valor em Romano para um valor em Decimal
+		ConversorNumeroRomano romano = new ConversorNumeroRomano();
+
+		// Valida o teste
+		assertTrue(romano.isRomanNumber(valorRomano));
+	}
+
+	@Test
+	public void deveRetornarFalseSeNaoForNumeroRomanoValido()
+	{
+		String valorRomano = "MGVI";
+
+		// Instancia uma nova conversão de um valor em Romano para um valor em Decimal
+		ConversorNumeroRomano romano = new ConversorNumeroRomano();
+
+		// Valida o teste
+		assertFalse(romano.isRomanNumber(valorRomano));
+	}
+
+	@Test
 	/*
 	 * recebendo uma String com o numeral romano I e devolvendo o valor inteiro 1
 	 */
