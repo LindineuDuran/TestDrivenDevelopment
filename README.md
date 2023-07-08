@@ -12,3 +12,4 @@ Um teste de unidade testa uma única unidade do nosso sistema. Geralmente, em si
 - [Test Driven Development (TDD): Example Walkthrough](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/)
 - [Test Driven Development (TDD): Best Practices Using Java Examples](https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
 - [How to TDD a List Implementation in Java](https://www.baeldung.com/java-test-driven-list)
+- [Mock an Autowired @Value field in Spring with Junit Mockito](https://roytuts.com/mock-an-autowired-value-field-in-spring-with-junit-mockito/)
